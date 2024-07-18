@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    /* nav-bar style start here */
+    .nav-menu{
+        display: none;
+    }
+    .bars{
+        font-size: 1.5rem;
+        display: block;
+    }
+    .nav-bar{
+        gap: 10rem;
+    }
+     /* nav-bar style end here */
+
+    
+}

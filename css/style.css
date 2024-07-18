@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+body{
+    font-family: "Inter", sans-serif;
+}
+.bg-background{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* all sheared style here */
+.primary-color{
+    color:rgb(230, 83, 60);
+}
+.second-color{
+    color: rgb(255, 255, 255);
+}
+.gray-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+/* nav-bar style start here */
+.nav-bar{
+ display: flex;
+ max-width: 70%;
+ margin: 57px auto;
+ justify-content: space-between;
+ align-items: center;
+}
+.nav-title{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.nav-menu{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.bars{
+    font-size: 1.5rem;
+    display: none;
+}
+/* nav-bar style end here */
+/* banner section style start here */
+.banner-container{
+    border: 2px solid red;
+    display: flex;
+    max-width: 70%;
+    margin: 57px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    border: 2px solid red;
+}
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+
+
+
+
+/* banner section style end here */
