@@ -3,9 +3,6 @@
 body{
     font-family: "Inter", sans-serif;
 }
-.bg-background{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-}
 
 *{
     margin: 0;
@@ -23,8 +20,10 @@ body{
 .gray-color{
     color: rgba(255, 255, 255, 0.5);
 }
-.btn{
-    padding: 10px 30px;
+.primary-button{
+    padding: 16px 40px;
+    font-weight: 700;
+    font-size: 1rem;
     border-radius: 46px;
     background: rgb(230, 83, 60);
     border: none;
@@ -32,22 +31,35 @@ body{
 }
 
 /* nav-bar style start here */
+header{
+    background-image: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(0, 0, 0, 0) 500%);
+}
 .nav-bar{
- display: flex;
- max-width: 70%;
- margin: 57px auto;
- justify-content: space-between;
- align-items: center;
+    display: flex;
+    max-width: 70%;
+    margin: 57px auto;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
     font-size: 2.2rem;
     font-weight: 800;
 }
 .nav-menu{
+    border: 0.1px solid rgb(59, 59, 59);
+    padding: 5px 10px;
+    border-radius: 25px;
     display: flex;
     gap: 4rem;
     justify-content: center;
     align-items: center;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
 }
 .bars{
     font-size: 1.5rem;
@@ -56,24 +68,88 @@ body{
 /* nav-bar style end here */
 /* banner section style start here */
 .banner-container{
-    border: 2px solid red;
     display: flex;
     max-width: 70%;
     margin: 57px auto;
     justify-content: space-between;
     align-items: center;
 }
-.banner-content{
-    border: 2px solid red;
-}
 .banner-title{
-    font-size: 78px;
+    font-size: 4.8rem;
     font-weight: 900;
     line-height: 120%;
 }
+.span-font{
+    font-size: 9rem;
+    font-weight: 400;
+}
+.banner-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    margin-top: 2.1rem;
+    margin-bottom: 2.1rem;
+}
+.download-button{
+    padding: 16px 40px;
+    font-size: 1rem;
+    border: 0.5px solid white;
+    font-weight: 700;
+    border-radius: 46px;
+    background: rgb(24, 23, 22);
+    color: rgb(255, 255, 255);
+}
+.banner-img{
+    position: relative;
+    width: 100%;
+}
 
-
-
+.sticker{
+    position: absolute;
+    top:120px;
+    right:-70px;
+    width: 12rem;
+    height: 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+.five-h{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.three-h{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.sticker-two{
+    position: absolute;
+    bottom:-0.20px;
+    left:-100px;
+    width: 13rem;
+    height: 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 70px;
+    
+}
+.shape{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
 
 
 /* banner section style end here */
