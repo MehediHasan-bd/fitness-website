@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- nav-bar start here -->
-    <header class="bg-background">
+    <header>
         <nav class="nav-bar">
             <div class="nav-title primary-color">
                 <h3><em>Fitness</em></h3>
@@ -27,7 +27,7 @@
         </nav>
         
         <!-- nav-bar end here -->
-             <!-- banner section start here -->
+            <!-- banner section start here -->
         <section class="banner">
             <div class="banner-container">
                 <div class="banner-content">
@@ -35,22 +35,25 @@
                         Get body in <br> <span style="font-family:'Miama', sans-serif;;" class="span-font">shape</span> & stay <br> healthy
                     </h1>
                     <p class="banner-description subtitle-font-style">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
-                    <button class="primary-button">Join Club Now!</button>
-                    <button class="download-button">Download App</button>
+                    <div class="button-div">
+                        <button class="primary-button">Join <span class="club">Club</span> Now!</button>
+                        <button class="download-button">Download App</button>
+                    </div>
+                    
                 </div>
+
                 <div class="banner-img">
                     <img src="images/Images 2.png" alt="">
 
-                    <button class="responsive">
-                        <div class="sticker"> <span class=" second-color five-h">500+</span> <br> <span class="gray-color">Free Workout Videos</span></div>
+                    
+                    <div class="sticker"> <span class=" second-color five-h">500+</span> <br> <span class="gray-color free-videos">Free Workout Videos</span></div>
 
                     <div class="sticker-two"> 
-                        <div class="shape"></div> 
-                        <div><span class=" second-color three-h">350+</span> <br> <span class="gray-color">Video tutorial</span></div>
+                        <div class="shape"></div>
+                        <div><i class="fa-solid fa-circle-play"></i></div>
+                        <div><span class=" second-color three-h">350+</span> <br> <span class="gray-color video-tutorial">Video tutorial</span></div>
                     </div>
                     
-
-                    </button>
                     
                 </div>
 
@@ -58,12 +61,242 @@
     
         </section>
         <!-- banner section end here -->
-       
     </header>
     <main>
+        <!-- habit section start here -->
+        <!-- <section class="habit">
+
+            <div class="habit-content">
+                <h2 class="habit-title second-color">Change Your Habits</h2> <br>
+                <p class="habit-description gray-color">we believe fitness should be accessible to everyone, evrywhere, regardiess of income or <br> access to a gym.</p>
+            </div>
+            <div class="habit-img">
+                <div class="img-content">
+                    <img class="img-redius" src="images/image 3.png" alt="gym pic">
+                    <h3 class="second-color">Movement</h3>
+                    <p class="gray-color">we believe fitness should be accessible to everyone</p>
+                </div>
+                
+                <div class="img-content">
+                    <img class="img-redius" src="images/image 2.png" alt="gym pic">
+                    <h3 class="second-color">Movement</h3>
+                    <p class="gray-color">we believe fitness should be accessible to everyone</p>
+                </div>
+                
+                <div class="img-content">
+                    <img class="img-redius" src="images/image 4.png" alt="gym pic">
+                    <h3 class="second-color">Movement</h3>
+                    <p class="gray-color">we believe fitness should be accessible to everyone</p>
+                </div>
+                
+                <div class="img-content">
+                    <img class="img-redius" src="images/image 5.png" alt="gym pic">
+                    <h3 class="second-color">Movement</h3>
+                    <p class="gray-color">we believe fitness should be accessible to everyone</p>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- habit section end here -->
+        <!-- run section start here -->
+        <!-- <section>
+            <div class="run-container">
+                <div class="run-content">
+                    <h1 class="run-title second-color">Run an Extra Mile Easily</h1>
+                    <p class="run-subtitle gray-color">We believe fitness should be accessible to everyone, 
+                        everywhere, regardless of income or access to a gym. With 
+                        hundreds of professional workouts.
+                    </p>
+                    <button class="primary-button">Join Now</button>
+
+                </div>
+                <div class="run-img">
+                    <img src="images/run.jpg" alt="">
+                </div>
+
+
+            </div>
+        </section> -->
+        <!-- run section end here -->
+        <!--Calculator section start here -->
+        <!-- <section>
+
+            <div class="calculator-header-title">
+                <h1 class="calculator-main-title second-color second-color">BMI Calculator</h1>
+                <p class="calculator-main-subtitle gray-color gray-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or 
+                    access to a gym.</p>
+            </div>
+
+            <div class="calculator-container">
+                <div class="calculator-content">
+
+            <div class="calculator-table-div">
+                <h1 class="calculator-table-title second-color">BMI Calculator Chart</h1>
+
+                <table border="1" class="table" >
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="caltulator-form-part">
+                <h1 class="second-color">Calculate your BMI</h1>
+                <p class="gray-color">We believe fitness should be accessible to everyone, everywhere, regardless of 
+                    income or access to a gym. </p>
+                <div class="c-form-part">
+                    <form action="">
+                        <input type="text" placeholder="Height/cm">
+                        <input type="text" placeholder="Weight/kg">
+                        <input type="text" placeholder="Age">
+                        <select name="Sex" id="" >
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+                        <select name="Select an activity factor" id="">
+                            <option value="">a</option>
+                            <option value="">b</option>
+                        </select>
+                    </form>
+                    <button class="primary-button">Calculate</button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+        </section> -->
+
+        <!--Calculator section end here -->
+
+        <!-- team section start here -->
+        <!-- <section class="team">
+            <div class="team-heading">
+                <h2 class="second-color">Meet Our Team</h2>
+                <p class="gray-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or 
+                    access to a gym.</p>
+            </div>
+
+            <div class="team-container">
+            <div>
+                <div class="team-img">
+                    <img src="images/trainer1.png" alt="gym-trainer">
+                    <div class="img-inner-text">
+                        <h4 class="second-color">Jerome Bell</h4>
+                        <p class="gray-color">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="team-img">
+                    <img src="images/trainer1.png" alt="gym-trainer">
+                    <div class="img-inner-text">
+                        <h4 class="second-color">Jerome Bell</h4>
+                        <p class="gray-color">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="team-img">
+                    <img src="images/trainer1.png" alt="gym-trainer">
+                    <div class="img-inner-text">
+                        <h4 class="second-color">Jerome Bell</h4>
+                        <p class="gray-color">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="team-img">
+                    <img src="images/trainer1.png" alt="gym-trainer">
+                    <div class="img-inner-text">
+                        <h4 class="second-color">Jerome Bell</h4>
+                        <p class="gray-color">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="team-img">
+                    <img src="images/trainer1.png" alt="gym-trainer">
+                    <div class="img-inner-text">
+                        <h4 class="second-color">Jerome Bell</h4>
+                        <p class="gray-color">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="team-img">
+                    <img src="images/trainer1.png" alt="gym-trainer">
+                    <div class="img-inner-text">
+                        <h4 class="second-color">Jerome Bell</h4>
+                        <p class="gray-color">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            </div>
+        </section> -->
+
+        <!-- team section end here -->
     
     </main>
     <footer>
+        <!-- footer start here -->
+        <!-- <div class="footer-container">
+            <div>
+                <h1>Fitness</h1>
+                <p>We believe fitness should be accessible to everyone, 
+                    everywhere, regardless of income or access to a gym. With 
+                    hundreds of professional workouts.</p>
+    
+            </div>
+            <div>
+                <h2>Get Started</h2>
+                <p>Service</p>
+                <p>Contact Us</p>
+                <p>Affiliate Program</p>
+                <p>About Us</p>
+    
+            </div>
+            <div>
+                <h2>Get Started</h2>
+                <p>Fitness</p>
+                <p>Platform</p>
+                <p>Workout Libary</p>
+                <p>App Design</p>
+    
+            </div>
+
+        </div>
+        
+    <div class="foot gray-color">
+        <hr>
+        <p class=" gray-color">All right reserved @Fitness 2024</p>
+    </div>
+         -->
+        <!-- footer end here -->
 
     </footer>
 </body>
