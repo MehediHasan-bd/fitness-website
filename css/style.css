@@ -232,21 +232,50 @@ border: 1px solid rgb(151, 148, 148);
 
 /* run section style start here */
 .run-container{
-    padding: 50px;
-    border: 2px solid red;
-    max-width: 70%;
-    margin: 50px auto;
-    border-radius: 1rem;
+    max-width: 66.25rem;
+    margin: 8rem auto;
+    border-radius: 1.1rem;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 12rem;
+    padding: 1.5rem;
+    
 }
 .run-content{
-    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.run-subtitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+.run-content button{
+    margin-top: 1rem;
+    padding: 1rem 3.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 2.875rem;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
 }
 .run-img img{
-    max-width: 100%;
     border-radius: 1rem;
+    max-width: 100%;
+    
+}
+.hide-img{
+    display: none;
 }
 /* run section style end here */
 /* Calculator section style start here */

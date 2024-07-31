@@ -107,9 +107,42 @@
     .habit-description{
         margin-top:-1rem;
     }
+/* habit section responsive end here */
+/* run section style start here */
+    .run-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 353px;
+        height: 531px;
+        margin: 1 auto;
+        gap: 1rem;
+        padding: 0.7rem;
+    }
+    .run-title{
+        font-size: 32px;
+    }
+    .run-content button{
+        width: 287px;
+        height: 54px;
+    }
+    .hide-img img{
+        width: 287px;
+        height: 170px;
+        margin-left: 20px;
+        border-radius: 1.2rem;
+        
+    }
+    .run-img{
+        display: none;
+       
+    }
+    .hide-img{
+        display: block;
+    }
+    
 
 
-    /* habit section responsive end here */
+/* run section style end here */
 
     
 }
