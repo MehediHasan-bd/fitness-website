@@ -134,15 +134,81 @@
     }
     .run-img{
         display: none;
-       
     }
     .hide-img{
         display: block;
     }
-    
-
-
 /* run section style end here */
+/* Calculator section style start here */
+.calculator-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.calculator-header-title{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem auto;
+}
+.calculator-main-title{
+    font-size: 2rem;
+}
+/* table*/
+.calculator-content{
+    margin-left: 3.9rem;
+}
+.calculator-table-div{
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.calculator-table-title{
+    font-size: 1rem;
+}
+table{
+    max-width: 19rem;
+}
+td, th{
+    padding: 0.7rem 1rem;
+}
+/* input style */
+.bmi-title{
+    font-size: 1rem;
+    margin-top: 0.1rem 0rem;
+}
+.bmi-subtile{
+    font-size: 0.8rem;
+    margin: 0.rem 0rem;
+}
+form{
+    gap: 0.5rem;
+    margin: 1.5rem 0rem;
+}
+input, select{
+    width: 170.5px;
+    border-radius: 0.7rem;
+    padding: 10px 10px;
+    font-size: 1rem;
+}
+.calculator-btn{
+    width: 13rem;
+    margin: 1.2rem 0rem;
+}
+/* Calculator section style end here */
+/* team section style start here */
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.team-container{
+    max-width: 83%;
+}
+.team-title{
+    font-size: 2rem;
+}
+.team-subtitle{
+    font-size: ;
+}
+/* team section style end here */
 
     
 }

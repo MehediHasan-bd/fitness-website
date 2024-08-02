@@ -280,73 +280,192 @@ border: 1px solid rgb(151, 148, 148);
 /* run section style end here */
 /* Calculator section style start here */
 .calculator-container{
-    background-color:  rgba(255, 255, 255, 0.1) ;
+    background: rgb(34, 34, 34);
 }
 .calculator-content{
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 40% 60%);
 }
 .calculator-header-title{
-    text-align: center;
+    margin: 2rem auto;
+    max-width: 41rem;
+    display: flex;
+    flex-direction: column;
 }
-.table{
-    border: 1px solid white;
+.calculator-main-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.calculator-main-subtitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+}
+
+/* table style */
+.calculator-table-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.calculator-table-title{
+    font-size: 1.9rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    max-width: 21.5rem;
+}
+td, th{
+    border: 1px solid rgb(126, 123, 123);
+    padding: 0.9rem 2rem;
+}
+th{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+/* input style */
+.bmi-title{
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-top: 3rem;
+}
+.bmi-subtile{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    margin: 0.8rem 0rem;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    margin: 2.1rem 0rem;
+}
+#activity{
+    grid-column: span 2;
+}
+input, select{
+    max-width: 282;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    border: none;
+    /* background-color: rgb(229, 226, 226); */
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+}
+.calculator-btn{
+    padding: 1rem 2.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 2.875rem;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 14rem;
+    margin: 1.8rem 0rem;
 }
 
 /* Calculator section style end here */
 /* team section style start here */
+.team-heading{
+    margin-top: 3rem;
+}
+.team-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 0.8rem 0rem;
+    text-align: center;
+}
+.team-subtitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0.8rem 0rem;
+}
 .team-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    max-width: 70%;
+    gap: 1rem;
+    max-width: 60%;
     margin: 0 auto;
     background-color:  rgba(255, 255, 255, 0.1) ;
     border-radius: 1rem;
     padding: 1.5rem;
-    
 }
-.team-heading{
-    text-align: center;
-}
-.team-img img{
+.img-one{
     max-width: 100%;
-    /* max-height: 100%; */
-    border-radius: 1rem;
-    
+    border-radius: 1.2rem;
+    width: 326.67px;
+    height: 272px;
+    object-fit: cover;
 }
 .team-img{
+    /* max-width: 326px; */
+    /* height: 272px; */
+    border-radius: 1.2rem;
     position: relative;
-    border: 2px solid red;
 }
 .img-inner-text{
     position: absolute;
     left: 1rem;
-    bottom: 3.5rem;
+    bottom: 1.5rem;
+}
+.trainer-name{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.degignation{
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 
 /* team section style end here */
 
 /* footer style start here */
 footer{
-    background-color:  rgba(255, 255, 255, 0.1) ;
+    background: rgb(34, 34, 34);
 }
 .footer-container{
-    max-width: 70%;
-    margin: 0 auto;
+    max-width: 60%;
+    margin: 3.5rem auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+}
+.service-div p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.service-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-
-/* footer style end here */
 .foot{
-    max-width: 70%;
+    max-width: 60%;
     text-align: center;
     margin: 0 auto;
 }
+/* footer style end here */
