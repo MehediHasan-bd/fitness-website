@@ -196,17 +196,16 @@ input, select{
 /* Calculator section style end here */
 /* team section style start here */
 .team-container{
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
-.team-container{
-    max-width: 83%;
+.team{
+    max-width: 80%;
+    margin: 0 auto;
 }
 .team-title{
     font-size: 2rem;
-}
-.team-subtitle{
-    font-size: ;
 }
 /* team section style end here */
 
