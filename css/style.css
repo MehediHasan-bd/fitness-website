@@ -404,33 +404,38 @@ input, select{
     text-align: center;
     margin: 0.8rem 0rem;
 }
+.team{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.team-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.2rem;
+}
+
 .team-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    max-width: 60%;
-    margin: 0 auto;
+    gap: 1.2rem;
     background-color:  rgba(255, 255, 255, 0.1) ;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1.2rem;
 }
-.img-one{
-    max-width: 100%;
-    border-radius: 1.2rem;
-    width: 326.67px;
-    height: 272px;
-    object-fit: cover;
-}
+
 .team-img{
-    /* max-width: 326px; */
-    /* height: 272px; */
     border-radius: 1.2rem;
     position: relative;
 }
 .img-inner-text{
+    background-color: rgba(0, 0, 0, 0.61);
     position: absolute;
-    left: 1rem;
-    bottom: 1.5rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.2rem;
 }
 .trainer-name{
     font-size: 1.3rem;
