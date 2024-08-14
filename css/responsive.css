@@ -1,213 +1,277 @@
 @media screen and (max-width: 576px) {
-    /* nav-bar responsive start here */
-    .nav-menu{
-        display: none;
-    }
-    .bars{
-        font-size: 1.5rem;
-        display: block;
-    }
-    .nav-bar{
-        gap: 10rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px;
-        max-width: 353px;
-        margin: 3.25rem 1.5rem;
-    }
-     /* nav-bar responsive end here */
-    /* banner section responsive start here */
-    .banner-container{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin: 2rem auto;
-    }
-    .banner-container h1{
-        font-size: 36px;
-    }
-    .span-font{
-        font-size: 4.4rem;
-    }
-    .download-button, .primary-button{
-        width: 169px;
-        height: 45px;
-        padding: 10px;
-    }
-    .club{
-        display: none;
-    }
-    .banner-img img{
-        width: 353px;
-        height: 588px;
-    }
-    .sticker{
-        position: absolute;
-        top:3rem;
-        right:1rem;
-        width: 145.91px;
-        height: 74.09px;
-        border-radius: 9px;
-    }
-    .five-h{
-        font-size: 30.24px;
-    }
-    .free-videos{
-        font-size: 9.83px;
-    }
+  /* nav-bar responsive start here */
+  .nav-menu {
+    display: none;
+  }
+  .bars {
+    font-size: 1.5rem;
+    display: block;
+  }
+  .nav-bar {
+    max-width: 80%;
+    margin: 3rem auto;
+  }
+  /* nav-bar responsive end here */
+  /* banner section responsive start here */
+  .banner-container {
+    max-width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .button-div {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-container h1 {
+    font-size: 36px;
+  }
+  .span-font {
+    font-size: 4.4rem;
+  }
+  .download-button,
+  .primary-button {
+    width: 169px;
+    height: 45px;
+    padding: 10px;
+  }
+  .club {
+    display: none;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .sticker {
+    top: 7rem;
+    right: -1rem;
+    width: 145.91px;
+    height: 74.09px;
+  }
+  .five-h {
+    font-size: 30.24px;
+  }
+  .free-videos {
+    font-size: 9.83px;
+  }
 
-    .three-h{
-        font-size: 18.14px;
-    }
-    .sticker-two{
-        position: absolute;
-        bottom:10.5rem;
-        left:1rem;
-        max-width: 155.74px;
-        max-height: 72.58px;
-        border-radius: 9px;
-    }
-    .video-tutorial{
-        font-size: 12.1px;
-    }
-    .shape{
-        display: none;
-    }
-    .sticker-two i{
-        display: block;
-        font-size: 30px;
-        color: rgb(230, 83, 60);
-        background: rgb(250, 250, 249);
-        border-radius: 60%;
-    }
-    /* banner section responsive end here */
-    /* habit section responsive start here */
-    .habit-img{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2.5rem;
-        margin-top: 3.6rem;
-    }
-    .habit-content{
-        width: 340px;
-        height: 72px;
-        margin: 0 3rem 0 -2rem;
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        flex-direction: column;
-    }
-    .habit-title{
-        font-size: 2rem;
-        margin-top: -1.5rem;
-        margin-bottom: 0.8rem;
-    }
-    .habit-description{
-        margin-top:-1rem;
-    }
-/* habit section responsive end here */
-/* run section style start here */
-    .run-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 353px;
-        height: 531px;
-        margin: 1 auto;
-        gap: 1rem;
-        padding: 0.7rem;
-    }
-    .run-title{
-        font-size: 32px;
-    }
-    .run-content button{
-        width: 287px;
-        height: 54px;
-    }
-    .hide-img img{
-        width: 287px;
-        height: 170px;
-        margin-left: 20px;
-        border-radius: 1.2rem;
-        
-    }
-    .run-img{
-        display: none;
-    }
-    .hide-img{
-        display: block;
-    }
-/* run section style end here */
-/* Calculator section style start here */
-.calculator-content{
+  .three-h {
+    font-size: 18.14px;
+  }
+  .sticker-two {
+    bottom: 0;
+    left: -1rem;
+    max-width: 155.74px;
+    max-height: 72.58px;
+  }
+  .video-tutorial {
+    font-size: 12.1px;
+  }
+  .shape {
+    display: none;
+  }
+  .sticker-two i {
+    display: block;
+    font-size: 30px;
+    color: rgb(230, 83, 60);
+    background: rgb(250, 250, 249);
+    border-radius: 60%;
+  }
+  /* banner section responsive end here */
+  /* habit section responsive start here */
+  .habit {
+    max-width: 80%;
+  }
+  .habit-img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-}
-.calculator-header-title{
-    align-items: center;
-    text-align: center;
-    margin-bottom: 1.5rem auto;
-}
-.calculator-main-title{
+    gap: 2.5rem;
+    margin-top: 3.6rem;
+  }
+  .habit-title {
     font-size: 2rem;
-}
-/* table*/
-.calculator-content{
-    margin-left: 3.9rem;
-}
-.calculator-table-div{
+  }
+  /* habit section responsive end here */
+  /* run section style start here */
+  .run-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    padding: 1.5rem;
+    max-width: 80%;
+    margin: 5rem auto;
+  }
+  .run-content {
+    margin: 0;
+    width: 100%;
+  }
+  .run-title {
+    font-size: 32px;
+  }
+  .hide-img img {
+    width: 100%;
+    border-radius: 1.2rem;
+  }
+  .run-img {
+    display: none;
+  }
+  .hide-img {
+    display: block;
+  }
+  /* run section style end here */
+  /* Calculator section style start here */
+  .calculator-container {
+    padding: 2rem 0 5rem;
+  }
+  .calculator-content {
+    max-width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .calculator-header-title {
+    margin: 3rem auto;
+    max-width: 80%;
+  }
+  .calculator-main-title {
+    font-size: 2rem;
+  }
+  .calculator-table-div {
     gap: 1.2rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-}
-.calculator-table-title{
-    font-size: 1rem;
-}
-table{
+  }
+  .calculator-table-title {
+    font-size: 1.4rem;
+  }
+  table {
     max-width: 19rem;
-}
-td, th{
+  }
+  td,
+  th {
     padding: 0.7rem 1rem;
-}
-/* input style */
-.bmi-title{
-    font-size: 1rem;
-    margin-top: 0.1rem 0rem;
-}
-.bmi-subtile{
+  }
+  /* input style */
+  .bmi-title {
+    font-size: 1.4rem;
+    margin: 3rem 0rem 1.5rem;
+  }
+  .bmi-subtile {
     font-size: 0.8rem;
-    margin: 0.rem 0rem;
-}
-form{
+    margin: 0rem 0rem;
+  }
+  form {
     gap: 0.5rem;
-    margin: 1.5rem 0rem;
-}
-input, select{
-    width: 170.5px;
-    border-radius: 0.7rem;
+    margin: 2.5rem 0rem;
+  }
+  input,
+  select {
+    width: 100%;
     padding: 10px 10px;
-    font-size: 1rem;
-}
-.calculator-btn{
-    width: 13rem;
-    margin: 1.2rem 0rem;
-}
-/* Calculator section style end here */
-/* team section style start here */
-.team-container{
-    max-width: 100%;
-    display: grid;
+    font-size: 0.875rem;
+    margin-bottom: 14px;
+  }
+  .calculator-btn {
+    width: 10rem;
+    margin: 0;
+  }
+  /* Calculator section style end here */
+  /* team section style start here */
+  .team-container {
+    /* max-width: 100%; */
     grid-template-columns: repeat(1, 1fr);
-}
-.team{
+    grid-template-rows: repeat(6, 280px);
+  }
+  .team {
     max-width: 80%;
     margin: 0 auto;
-}
-.team-title{
+  }
+  .team-title {
     font-size: 2rem;
-}
-/* team section style end here */
+  }
+  .team-subtitle {
+    margin: 1rem 0rem 2.4rem;
+  }
+  /* team section style end here */
+  /* challenge part responsive start here*/
+  .challenge-container {
+    max-width: 80%;
+    margin: 4rem auto;
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+  .challenge-header {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .challenge-title {
+    font-size: 2.3rem;
+    padding-top: 1.2rem;
+  }
+  .challenge-service-name {
+    font-size: 1rem;
+    margin-bottom: -2rem;
+    margin-left: 0;
+  }
+  .challenge-btn {
+    margin: 2rem 0 3rem;
+    width: 180px;
+    font-size: 1rem;
+  }
+  /*card*/
+  .challenge-card-part {
+    width: 100%;
+  }
+  .card {
+    width: auto;
+  }
+  .card-two {
+    margin-right: 0px;
+  }
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .card-subtitle {
+    padding: 1.5rem 1rem;
+  }
+  .card-btn {
+    padding: 0.6rem 2rem;
+    font-size: 0.875rem;
+  }
+  /* challenge part responsive end here*/
 
-    
+  /*footer responsive start here*/
+  .footer-container {
+    max-width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .foot-title {
+    margin-bottom: 20px;
+    font-size: 48px;
+  }
+  .foot-subtitle {
+    padding-right: 0;
+    padding-bottom: 3rem;
+  }
+  .service-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .s-t {
+    font-size: 1.8rem;
+  }
+  .s-p {
+    font-size: 1rem;
+    margin-bottom: 1.4rem;
+  }
+  .foot {
+    max-width: 80%;
+  }
+  .foot p {
+    font-size: 14px;
+  }
+  /*footer responsive end here*/
 }
