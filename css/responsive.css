@@ -18,6 +18,9 @@
     flex-direction: column;
     margin: 0 auto;
     gap: 3rem;
+  }  
+  .banner-description {
+    margin-right: 0;
   }
   .banner-content {
     width: 100%;
